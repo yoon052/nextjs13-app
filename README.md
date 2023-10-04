@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# next.js 를 이용한 간단한 포스트앱 만들기
 
-## Getting Started
+<br>
 
-First, run the development server:
+- pocketbase, nextjs 를 통해 포스트앱을 구현했습니다.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+</br>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [x] 추가한 포스트들을 pocketbase 에서 확인할 수 있습니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [x] input 폼을 통해 간단한 포스트를 추가하고, 페이지 자동 새로고침을 구현했습니다.
+ 
+- [x] 추가한 포스트 제목을 클릭하면 포스트의 세부적인 내용들을 확인할 수 있습니다.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+</br></br></br></br>
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### 추가한 포스트들을 pocketbase 에서 확인가능
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- pocketbase 서버에 포스트 데이터들이 저장된 것을 확인할 수 있다.
 
-## Deploy on Vercel
+<br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![nextjs13-app_postslist](https://github.com/yoon052/nextjs13-app/assets/105267838/baf82ff0-f570-4347-a121-01015c7c83ea)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+<br><br></br></br>
+
+
+### input 폼을 통해 간단한 포스트를 추가하고, 페이지 자동 새로고침 구현
+
+<br>
+
+- pocketbase 서버에도 추가된 포스트가 동기화되는 것을 확인할 수 있다.
+
+<br>
+
+![nextjs13-app_addpost](https://github.com/yoon052/nextjs13-app/assets/105267838/c0e7f8be-b5f6-4cc6-a225-42775369b86a)
+
+<br><br></br></br>
+
+
+### 추가한 포스트 제목을 클릭하면 포스트 세부 내용 확인가능
+
+<br>
+
+- 추가한 포스트를 클릭하면 포스트 제목과 업로드시간 그리고 내용을 확인할 수 있습니다.
+
+<br>
+
+![nextjs13-app_movelink](https://github.com/yoon052/nextjs13-app/assets/105267838/cd17008c-1ddd-4667-99be-db1e8f1b7b03)
+
+
+<br><br></br></br>
