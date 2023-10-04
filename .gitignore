@@ -4,6 +4,14 @@
 /node_modules
 /.pnp
 .pnp.js
+*.exe
+
+#public
+/public
+
+#pb
+/pb_data
+/pb_migrations
 
 # testing
 /coverage
